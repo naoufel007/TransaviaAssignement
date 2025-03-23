@@ -1,4 +1,4 @@
-import '../../public/antd.min.css';
+import '../../antd.min.css';
 
 export default function RootLayout({
   children,
