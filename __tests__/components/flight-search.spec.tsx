@@ -130,6 +130,7 @@ describe('FlightSearch component', () => {
             await userEvent.click(searchBtn);
         });
 
+        //flights result
         expect(getByText("Departure Time")).toBeInTheDocument();
         expect(getByText("Arrival Time")).toBeInTheDocument();
         expect(getByText("Price (EUR)")).toBeInTheDocument();
